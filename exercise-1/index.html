@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Vue.js Workshop - Exercise 1</title>
+    <link rel='stylesheet' href='style.css'>
+    <script src="https://unpkg.com/vue"></script>
+  </head>
+  <body>
+    <!-- Define an id where Vue.js must look for-->
+    <div id=" ">
+        <nav v-bind:class="active" v-on:click.prevent>
+            <!-- Populate those a tag with functions -->
+            <a href="#" class="home" v-on:click=" ">Home</a>
+            <a href="#" class="projects" v-on:click=" ">Projects</a>
+            <a href="#" class="services" v-on:click=" ">Services</a>
+            <a href="#" class="contact" v-on:click=" ">Contact</a>
+        </nav>
+        <!-- Output which one is active on </b> tag -->
+        <p>You chose <b></b></p>
+    </div>
+    <script src='script.js'></script>
+  </body>
+</html>
